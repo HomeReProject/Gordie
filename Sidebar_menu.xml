@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Items>	
+	
+	<MenuItem Text="Organization Form" Value="Organizatio Form" NavigateUrl="~/Organization_Form.aspx"/>
+	<MenuItem Text="Individual Form" Value="Individual Form" NavigateUrl="~/Individual_Form.aspx"/>
+	<MenuItem Text="Customer Form" Value="Customer Form" NavigateUrl="~/Customer_Form.aspx"/>
+	<MenuItem Text="Project Info Basic Form" Value="Project Info Basic Form" NavigateUrl="~/Project_Info_basic_Form.aspx"/>
+	<MenuItem Text="Project Plan Form" Value="Project Plan Form" NavigateUrl="~/Project_Plan_Form.aspx"/>
+	<MenuItem Text="Training Links" Value="Training Links" NavigateUrl="~/TrainingLinks.aspx"/>
+	<MenuItem Text="Active Project Links" Value="Active Projects Link" NavigateUrl="~/Active_Project_Links.aspx"/>
+	<MenuItem Text="Work and Resources" Value="Work Resources" NavigateUrl="~/Work_Resources_Links.aspx"/>
+	<MenuItem Text="Reports and Accounting" Value="Reports and Accounting" NavigateUrl="~/Reports_Accounting_Links.aspx"/>
+	<MenuItem Text="Showcase Billing" Value="Showcase Billing" NavigateUrl="~/Showcase_Billing.aspx"/>
+	<MenuItem Text="New Project Opportunities" Value="New Project Opportunities" NavigateUrl="~/New_Project_Opportunities.aspx"/>
+</Items>

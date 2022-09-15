@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomeLogin.master.cs" Inherits="GORDIE.HomeLogin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Gordie</title>
+
+    <link href="Style.css" rel="stylesheet" />
+
+    <%--bootstrap css --%>
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <%--datatables css --%>
+    <link href="Datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <%--fontawesome css --%>
+    <link href="Font_awesome/css/all.css" rel="stylesheet" />
+    <%--bootstrap js --%>
+    <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <%--popper js --%>
+    <script src="Bootstrap/js/popper.min.js"></script>
+    <%--jquery --%>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:XmlDataSource ID="XmlDataSource1" XPath="Items/MenuItem" DataFile="~/Sidebar_menu.xml" runat="server"></asp:XmlDataSource>
+        <div class="outerWrapper">
+            <div class="top">
+                <div class="left">
+                    <img src="images/Gordie_Logo_v2_small.png" />
+                </div>
+                <div class="right">
+                    <img src="images/Home-ReProject-No-Tag-6.png" class="HRPLogo" />
+                    
+                </div>
+            </div><br />
+             <div class="showcase">
+                <asp:LinkButton ID="LinkButton1" runat="server" Visible="False" OnClick="LinkButton1_Click">Logout </asp:LinkButton> &nbsp; <asp:LinkButton ID="LinkButton2" runat="server" Visible="False" OnClick="LinkButton2_Click">Hello Admin</asp:LinkButton>
+            </div>
+        </div>
+        <div class="main">            
+            <div class="homelogin"> <asp:ContentPlaceHolder ID="HomeContentPlaceholder" runat="server"></asp:ContentPlaceHolder></div>           
+        </div>
+    </form>
+</body>
+</html>

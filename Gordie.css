@@ -1,0 +1,59 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+body {
+    background-color: #fff;
+    color: #555;
+    font: normal 15px Arial, Helvetica, sans-serif;
+    /*line-height: 1.6em;*/
+    margin: auto;
+    text-align: center;
+}
+
+.firstrow {
+    height: 80px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.firstrow {
+    height: 80px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 30px;
+    background-color: #ccc;
+    text-align: center;
+}
+.sidemenu {
+    background-color: #E7E6E6;
+    width: 25%;
+    text-align: left;
+    color: #000;
+}
+
+.sidemenu ul {
+        list-style: none;
+}
+
+ .sidemenu li {
+        margin: 0;
+        border-bottom: solid 1px #fff;
+}
+
+.mainbox {
+    background-color: #E7E6E6;
+    width: 75%;
+    height: 1500px;
+    text-align: center;
+    color: #000;
+}
